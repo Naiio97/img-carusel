@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+}
+
+.carusel {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3 );
+    overflow: hidden;
+    height: 770px;
+    width: 1000px;
+}
+
+.img-container {
+    display: flex;
+    transition: transform 1s linear;
+    transform: translateX();
+}
+
+img {
+    object-fit: cover;
+    height: 770px;
+    width: 1000px;
+}
